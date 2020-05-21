@@ -1,0 +1,41 @@
+.rendered_html ul:not(.list-inline), .rendered_html ol:not(.list-inline) {
+  padding-left: 1em;
+}
+
+.rendered_html ul ul:not(.list-inline) {
+  padding-left: 0;
+}
+
+section.present:not(:first-child) section.present {
+    top: 0 !important;
+    display: block;
+}
+
+.rendered_html h1:first-child {
+  border-bottom: 3px solid black;
+  padding-bottom: .3em;
+}
+
+section.stack.present:first-child .rendered_html h1:first-child {
+  border: 0;
+}
+
+.rendered_html p, .rendered_html > ul {
+  font-size: 1.2em;
+}
+
+.reveal p {
+  margin-bottom: 0;
+}
+
+.reveal li {
+  padding-bottom: .3em;
+}
+
+.reveal pre {
+  margin-top: 1em;
+}
+
+.reveal .slide-number {
+    font-size: 1em;
+}
